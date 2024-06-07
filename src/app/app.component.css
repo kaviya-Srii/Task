@@ -1,0 +1,96 @@
+* {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.container h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.container p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+form {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  margin-top: 15px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 210px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.transactions {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.transactions h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.transactions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transactions li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.table {
+  display: flex;
+}
